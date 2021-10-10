@@ -1,0 +1,43 @@
+.add-a-note-dialog{
+  min-width: 55%;
+    .modal-content {
+      .modal-header
+  {
+      border: 0;
+      padding: 12px 25px 0 35px;
+      font-size: 1.1em;
+      font-weight: 700;
+      button:focus {
+          outline: 0;
+      }
+  }
+   .modal-body {
+      height: 20%;
+      font-size: 12px;
+      padding: 0 15px 30px 15px;
+      }
+}
+}
+
+button {
+    background-color: rgba(0, 0, 0, .8);
+    color: #fafafa;
+    border: 0;
+    padding: 5px 10px;
+    outline: none !important;
+    transition: all .3s;
+  }
+
+  button.success {
+    background-color: #84E296;
+    color: #333;
+  }
+  
+  button.success:active {
+    background-color: #74c483;
+    color: #000;
+  }
+.parent-div{
+  display: grid;
+  place-items: center;
+}
